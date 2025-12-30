@@ -8,7 +8,7 @@
   --color-text        : light-dark(oklch(0.2  0.02 320), oklch(0.96 0.04 320));
   --color-text-muted  : light-dark(oklch(0.4  0.02 320), oklch(0.76 0.04 320));
   
-  --color-highlight   : light-dark(oklch(0.6  0.04 320), oklch(0.5  0.04 320));
+  --color-highlight   : light-dark(oklch(0.7  0.04 320), oklch(0.4  0.04 320));
   --color-border      : light-dark(oklch(0.8  0.02 320), oklch(0.4  0.04 320));
   --color-border-muted: light-dark(oklch(0.9  0.02 320), oklch(0.3  0.04 320));
   
