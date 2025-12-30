@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark     : light-dark(oklch(0.9  0.01 320), oklch(0.1  0.02 320));
+  --color-bg          : light-dark(oklch(0.98 0.01 320), oklch(0.15 0.02 320));
+  --color-bg-light    : light-dark(oklch(1.0  0.0  320), oklch(0.2  0.02 320));
+  
+  --color-text        : light-dark(oklch(0.2  0.02 320), oklch(0.96 0.04 320));
+  --color-text-muted  : light-dark(oklch(0.4  0.02 320), oklch(0.76 0.04 320));
+  
+  --color-highlight   : light-dark(oklch(0.6  0.04 320), oklch(0.5  0.04 320));
+  --color-border      : light-dark(oklch(0.8  0.02 320), oklch(0.4  0.04 320));
+  --color-border-muted: light-dark(oklch(0.9  0.02 320), oklch(0.3  0.04 320));
+  
+  --color-primary     : light-dark(oklch(0.6  0.1  320), oklch(0.76 0.1  320));
+  --color-secondary   : light-dark(oklch(0.6  0.1  140), oklch(0.76 0.1  140));
+  
+  --color-danger      : light-dark(oklch(0.6  0.15 30 ), oklch(0.7  0.05 30 ));
+  --color-warning     : light-dark(oklch(0.7  0.15 100), oklch(0.7  0.05 100));
+  --color-success     : light-dark(oklch(0.6  0.15 160), oklch(0.7  0.05 160));
+  --color-info        : light-dark(oklch(0.6  0.15 260), oklch(0.7  0.05 260));
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+#root {
+  flex: 1;
+  width: 100%;
+}
